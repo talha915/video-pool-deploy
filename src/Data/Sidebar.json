@@ -1,0 +1,40 @@
+{
+    "sidebarList": [
+        {
+            "name": "Video",
+            "activeStatus": true,
+            "redirect": "/",
+            "iconType": "icon icon-video"
+        },
+        {
+            "name": "Question",
+            "activeStatus": false,
+            "redirect": "/question/vote1",
+            "iconType": "icon icon-communications"
+        },
+        {
+            "name": "Outro",
+            "activeStatus": false,
+            "redirect": "/outro/video",
+            "iconType": "icon icon-chat"
+        },
+        {
+            "name": "Branding",
+            "activeStatus": false,
+            "redirect": "/branding/logosounds",
+            "iconType": "icon icon-branding"
+        },
+        {
+            "name": "General Setting",
+            "activeStatus": false,
+            "redirect": "/general/settings",
+            "iconType": "icon icon-interface"
+        },
+        {
+            "name": "Results",
+            "activeStatus": false,
+            "redirect": "/results/vote1",
+            "iconType": "icon icon-results"
+        }
+    ]
+}
