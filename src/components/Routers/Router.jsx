@@ -7,6 +7,10 @@ import Branding from '../Branding';
 import General from '../General';
 import Results from '../Results';
 
+// Workspace
+import Workspaces from '../Workspace/Workspaces';
+
+
 function Router() {
   return (
     <div >
@@ -24,10 +28,14 @@ function Router() {
         <Route path="/branding/logosounds" component={Branding} exact/>
         <Route path="/general/export" component={General} exact/>
         <Route path="/general/settings" component={General} exact/>
+        <Route path="/general/analytics" component={General} exact/>
         <Route path="/results/vote1" component={Results} exact/>
         <Route path="/results/vote2" component={Results} exact/>
         <Route path="/results/vote3" component={Results} exact/>
         <Route path="/results/analytics" component={Results} exact/>
+        <Route path="/workspace/project" component={Workspaces} exact/>
+        <Route path="/workspace/branding" component={Workspaces} exact/>
+        <Route path="/workspace/setting" component={Workspaces} exact/>
       </Switch>
     </div>
   );
